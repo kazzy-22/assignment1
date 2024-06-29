@@ -1,0 +1,40 @@
+.template-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 100%;
+    .template-header{
+        display: flex;
+        justify-content: space-between;
+        .ant-btn{
+            background-color: #CF682F;
+        }
+    }
+    .filter{
+        display: flex;
+        grid-gap: 3rem;
+        margin-top: 2rem;
+        button{
+            margin-top: 2rem;
+            text-align: left;
+            background-color: #CF682F;
+        }
+        .ant-form-item-row{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .ant-form-item-row{
+            width: 180px;
+        }
+        .ant-form-item-label{
+            display: flex;
+        }
+        .ant-select{
+            width: 200px;
+        }
+        .ant-picker{
+            width: 200px;
+        }
+    }
+}

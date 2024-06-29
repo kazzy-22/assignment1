@@ -1,0 +1,23 @@
+.left-menu-container{
+    display: flex;
+    width: 200px;
+    background: #CF682F;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    .ant-menu{
+        background-color: #CF682F;
+        .ant-menu-title-content{
+            color: #fff !important;
+
+        }
+        .ant-menu-item-selected{
+            background-color: #F5A172;
+            margin-left: 0;
+            margin-right: 0;
+            border-radius: 0%;
+            width: 100%;
+        }
+        .ant-menu-submenu-arrow{
+            color: #fff !important;
+        }
+    }
+}
