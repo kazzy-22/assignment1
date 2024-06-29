@@ -7,7 +7,7 @@
         display: flex;
         justify-content: space-between;
         .ant-btn{
-            background-color: #CF682F;
+            background-color: #CF682F !important;
         }
     }
     .filter{
@@ -17,7 +17,7 @@
         button{
             margin-top: 2rem;
             text-align: left;
-            background-color: #CF682F;
+            background-color: #CF682F !important;
         }
         .ant-form-item-row{
             display: flex;
@@ -37,4 +37,66 @@
             width: 200px;
         }
     }
+    .table-container{
+        display: flex;
+        margin-top: 2rem;
+        width: 100%;
+        min-height: 300px;
+        .ant-table-wrapper{
+            width: -webkit-fill-available;
+        }
+    }
+    .table-footer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+        margin-top: 2rem;
+    }
+
 }
+    .modal-body-container{
+        display: flex;
+        flex-direction: column;
+        min-height: 400px;
+        .create-filter{
+            display: flex;
+            grid-gap: 1rem;
+            margin-top: 2rem;
+            .ant-form-item-label{
+                text-align: left;
+            }
+            button{
+                margin-top: 2rem;
+                text-align: left;
+                background-color: #CF682F !important;
+            }
+            .ant-select{
+                width: 180px;
+            }
+            .ant-form-item-row{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+
+        }
+    }
+    .create-modal{
+        width: 40% !important;
+        .ant-btn{
+            background-color: #D9D9D9;
+        }
+        .ant-btn-primary{
+            background-color: #CF682F !important;
+        }
+        .img-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem;
+            img{
+
+            }
+        }
+    }
